@@ -1,0 +1,370 @@
+/* normalize.css 2011-06-23T00:50 UTC //github.com/jonathantneal/normalize.css */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+	display:block
+}
+
+html {
+	cursor: default;
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-tap-highlight-color: transparent;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-image: url(17.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+
+body,form,input,button,select,textarea {
+	font-size: 100%;
+	margin: 0;
+	height: auto;
+}
+
+abbr {
+	_border-bottom:expression(this.title ? '1px dotted':'none')
+}
+
+abbr[title] {
+	border-bottom:1px dotted
+} 
+
+b,strong {
+	font-weight:bold
+} 
+ 
+dfn {
+	font-style:italic
+}
+
+mark {
+	background:#FF0;color:#000
+} 
+
+pre,code,kbd,samp {
+	font-family:monospace,monospace;
+	_font-family:'courier new',monospace;
+	font-size:1em
+}
+
+pre {
+	white-space:pre;
+	white-space:pre-wrap;
+	word-wrap:break-word
+}
+
+q {
+	quotes:none
+} 
+
+q:before,q:after {
+	content:'';
+	content:none
+} 
+
+small,sub,sup {
+	font-size:75%
+} 
+
+sub,sup {
+	line-height:0;
+	position:relative;
+	vertical-align:baseline
+}
+
+sup {
+	top:-0.5em
+} 
+
+sub {
+	bottom:-0.25em
+} 
+
+nav ul {
+	list-style:none
+}
+
+audio[controls],canvas,video {
+	display:inline-block;
+	*display:inline
+}
+
+audio {
+	display:none;
+	_display:expression(this.controls ? 'inline':'none');
+	*zoom:1
+}
+
+audio[controls] {
+	display:inline-block
+} 
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+	overflow:hidden
+}
+
+legend {
+	*margin-left:-7px
+}
+
+button,input,select,textarea {
+	vertical-align:baseline;
+	*vertical-align:middle
+}
+
+button,input {
+	line-height:normal;
+	_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')
+}
+
+button,input[type="button"],input[type="reset"],input[type="submit"] {
+	overflow:visible;-webkit-appearance:button
+}
+
+input[type="checkbox"],input[type="radio"] {
+	box-sizing:border-box
+}
+
+input[type="search"] {
+	-webkit-appearance:textfield;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	box-sizing:content-box
+}
+
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance:none
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+	border:0;padding:0
+}
+
+textarea {
+	overflow:auto;vertical-align:top
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+/*******************USEFUL******************/
+body {
+	color: #404040;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	width: auto;
+}
+
+h1 {
+	color:#12182A;
+	font-size: 55px;
+	margin: 1px;
+}
+
+h2 {
+	color: #2A2C30;
+	font-size: 30px;
+	font-weight: lighter;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+p {
+	color: 393842;
+	line-height: 1.5S;
+	font-size: 20px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: normal;
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+img {
+	margin: 0 auto;
+	width: 178px;
+	height: 110px;
+}
+
+.logo {
+	margin: 0 auto;
+	display: block;
+}
+
+.banner {
+	padding-top: 110px;
+	padding-bottom: 2px;
+	background-image: url('images/city_outline.jpg');
+	text-align: center;
+	background-attachment: fixed;
+}
+
+.banner h1 {
+	text-transform: uppercase;
+	width: auto;
+	margin-bottom: -39px;
+	margin-top: -40px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: lighter;
+	font-size: 70px;
+}
+
+.banner p {
+	font-size: 28px;
+	width: auto;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: lighter;
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 22px;
+	height: auto;
+	text-align:center;
+}
+
+.about {
+	background: url('images/tile1.png');
+	overflow: hidden;
+}
+
+.about h2 {
+	text-align: center;
+	border-radius: 0px;
+}
+
+.about p {
+	text-align:center;
+}
+
+.about img {
+	float:left;
+}
+
+.past {
+	text-align: center;
+	display: inline-block;
+}
+
+.past h3, h4, p {
+	text-align:left;
+}
+
+.contact {
+	text-align: center;
+	padding-top: 7em;
+	padding-bottom: 7em;
+	font-variant: small-caps;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+.contact img {
+	margin: 15px;
+	width: 110px;
+	border-radius: 20px;
+	padding-left: 0px;
+	align-content: center;
+	display: inline;
+}
+
+.contact p {
+	text-align:center;
+}
+
+.box {
+	padding: 50px 110px;
+	margin-right: 60px;
+	margin-left: 60px;
+	text-align: center;
+	font-weight: lighter;
+	display: block;
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	background-color: #FFFFFF;
+}
+
+.menu li {
+	display: inline-block;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: large;
+	font-variant: small-caps;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #12182A;
+	padding: 20px;
+}
+
+.education {
+	margin-bottom: 0px;
+}
+.education h3 {
+	text-align: left;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: x-large;
+}
+
+.education ul, li {
+	text-align: left;
+	font-size: large;
+}
+.education li {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-position: outside;
+	font-size: large;
+}
+.skills {
+	text-align: center;
+	padding-bottom: 10em;
+	width: auto;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #8A8699;
+	transition-property: all;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+	transition-delay: initial;
+}
+.box h4 {
+	margin-top: -19px;
+}
+
+#skill_1 {
+	width: 38%;
+	clear: left;
+	float: left;
+}
+
+#skill_2 {
+	width: 38%;
+	float: right;
+}
